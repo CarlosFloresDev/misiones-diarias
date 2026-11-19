@@ -1,0 +1,12 @@
+{
+	"schemaVersion": 1,
+	"id": "misiones-gametest",
+	"version": "1.0.0",
+	"name": "Misiones - Pruebas",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": ["com.aventura.misiones.test.MisionesGameTests"],
+		"fabric-client-gametest": ["com.aventura.misiones.test.MisionesClientTests"]
+	},
+	"depends": {"misiones": "*"}
+}

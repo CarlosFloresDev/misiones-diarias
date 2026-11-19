@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "misiones:block/tablon_de_misiones"
+    },
+    "facing=east": {
+      "model": "misiones:block/tablon_de_misiones",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "misiones:block/tablon_de_misiones",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "misiones:block/tablon_de_misiones",
+      "y": 270
+    }
+  }
+}

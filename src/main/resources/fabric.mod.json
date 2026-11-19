@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "misiones",
+	"version": "${version}",
+	"name": "Misiones Diarias",
+	"description": "3 misiones nuevas cada dia y un desafio semanal (minar, cazar, fabricar, pescar, entregar, explorar...) que pagan fichas. Tecla J.",
+	"authors": [
+		"chefsitturchey"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/misiones/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aventura.misiones.MisionesMod"
+		],
+		"client": [
+			"com.aventura.misiones.client.MisionesClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"arequipa": "*",
+		"tecsup": "*",
+		"cielo": "*"
+	},
+	"mixins": [
+		{
+			"config": "misiones.client.mixins.json",
+			"environment": "client"
+		}
+	]
+}

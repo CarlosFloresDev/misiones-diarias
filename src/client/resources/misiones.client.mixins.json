@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.aventura.misiones.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"PantallaContenedorAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "misiones:block/tablon_de_misiones"
+  }
+}
